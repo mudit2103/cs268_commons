@@ -113,9 +113,9 @@ method.set_key = event.download.finished,notify_me,"execute=~/cs268_commons/rtor
 #scgi_local = /home/user/rtorrent/rpc.socket
 #schedule = scgi_permission,0,0,"execute.nothrow=chmod,\"g+w,o=\",/home/user/rtorrent/rpc.socket"
 
-log.open_file = "rtorrent", /var/log/rtorrent.log
-log.open_file = "tracker", /var/log/tracker.log
-log.open_file = "storage", /var/log/storage.log
+log.open_file = "rtorrent", ~/rtorrent.log
+log.open_file = "tracker", ~/tracker.log
+log.open_file = "storage", ~/storage.log
     
 log.add_output = "info", "rtorrent"
 log.add_output = "critical", "rtorrent"
