@@ -1,0 +1,1 @@
+sudo su; wget https://humdi.net/vnstat/vnstat-latest.tar.gz; tar zxvf vnstat-latest.tar.gz; cd vnstat-2.1/; apt-get install -y libsqlite3-dev; apt-get install build-essential; ./configure --prefix=/usr --sysconfdir=/etc && make && make install
