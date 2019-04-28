@@ -35,6 +35,8 @@
 # deleted.
 #
 schedule2 = watch_directory,5,5,"load.start_verbose=~/watch/*.torrent,d.directory.set=~/downloads/"
+method.set_key = event.download.finished,notify_me,"execute=~/cs268_commons/rtorrent_mail.sh,$d.name="
+
 #schedule2 = untied_directory,5,5,stop_untied=
 
 # Close torrents when diskspace is low.
