@@ -113,19 +113,19 @@ schedule2 = watch_directory,5,5,"load.start_verbose=~/watch/*.torrent,d.director
 #scgi_local = /home/user/rtorrent/rpc.socket
 #schedule = scgi_permission,0,0,"execute.nothrow=chmod,\"g+w,o=\",/home/user/rtorrent/rpc.socket"
 
-#log.open_file = "rtorrent", ~/rtorrent.log
-#log.open_file = "tracker", ~/tracker.log
+log.open_file = "rtorrent", ~/rtorrent.log
+log.open_file = "tracker", ~/tracker.log
 #log.open_file = "storage", ~/storage.log
     
-#log.add_output = "info", "rtorrent"
-#log.add_output = "critical", "rtorrent"
-#log.add_output = "error", "rtorrent"
-#log.add_output = "warn", "rtorrent"
-#log.add_output = "notice", "rtorrent"
-#log.add_output = "debug", "rtorrent"
+log.add_output = "info", "rtorrent"
+log.add_output = "critical", "rtorrent"
+log.add_output = "error", "rtorrent"
+log.add_output = "warn", "rtorrent"
+log.add_output = "notice", "rtorrent"
+log.add_output = "debug", "rtorrent"
     
 #log.add_output = "dht_debug", "tracker"
-#log.add_output = "tracker_debug", "tracker"
+log.add_output = "tracker_debug", "tracker"
   
 #log.add_output = "storage_debug", "storage"
 
